@@ -9,7 +9,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/",(req,res)=>{
-    res.send("ecipe-Backend Running")
+    res.send("Recipe-Backend Running")
 })
 
 app.use('/api/auth',authRoutes)
